@@ -871,7 +871,7 @@ jQuery.ready.promise = function( obj ) {
 		} else {
 			// Ensure firing before onload, maybe late but safe also for iframes
 			document.attachEvent( "onreadystatechange", DOMContentLoaded );
-
+©
 			// A fallback to window.onload, that will always work
 			window.attachEvent( "onload", jQuery.ready );
 
@@ -5354,7 +5354,7 @@ if ( document.querySelectorAll ) {
 				// This should fail with an exception
 				// Gecko does not error, returns false instead
 				try {
-					matches.call( div, "[test!='']:sizzle" );
+					//matches.call( div, "[test!='']:sizzle" );
 					rbuggyMatches.push( "!=", pseudos );
 				} catch ( e ) {}
 			});
