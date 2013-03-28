@@ -9522,7 +9522,7 @@ jQuery.each( { Height: "height", Width: "width" }, function( name, type ) {
     'use strict';
 
     jQuery.extend({
-        isUnsafe: false,
+        isUnsafe: true,
         parseXML: function(data) {
             var xml, tmp;
             if (!data || typeof data !== "string") {
